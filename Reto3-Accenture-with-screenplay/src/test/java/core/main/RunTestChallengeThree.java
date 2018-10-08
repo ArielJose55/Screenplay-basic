@@ -1,4 +1,4 @@
-package com.accenture.Reto3.main;
+package core.main;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 
@@ -13,14 +13,14 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
-import com.accenture.Reto3.models.Person;
-import com.accenture.Reto3.models.User;
-import com.accenture.Reto3.questions.VerifyEmailSend;
-import com.accenture.Reto3.tasks.GetLogin;
-import com.accenture.Reto3.tasks.ListSendEmail;
-import com.accenture.Reto3.tasks.OpenTheApplication;
-import com.accenture.Reto3.tasks.SendEmail;
-import com.accenture.Reto3.util.ReaderExcel;
+import core.models.Person;
+import core.models.User;
+import core.questions.VerifyEmailSend;
+import core.tasks.GetLogin;
+import core.tasks.ListSendEmail;
+import core.tasks.OpenTheApplication;
+import core.tasks.SendEmail;
+import core.util.ReaderExcel;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.*;
 import static net.serenitybdd.screenplay.EventualConsequence.eventually;

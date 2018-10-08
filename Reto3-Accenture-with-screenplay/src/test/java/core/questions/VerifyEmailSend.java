@@ -1,10 +1,9 @@
-package com.accenture.Reto3.questions;
+package core.questions;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.accenture.Reto3.ui.WriteEmailPage;
-
+import core.ui.WriteEmailPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;

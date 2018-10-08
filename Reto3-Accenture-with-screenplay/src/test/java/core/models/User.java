@@ -1,4 +1,4 @@
-package com.accenture.Reto3.models;
+package core.models;
 
 public class User {
 
@@ -8,8 +8,8 @@ public class User {
 	
 	public User() {
 		super();
-		this.email = "aarnedoc@unicartagena.edu.co";
-		this.password = "ArielLamborgini1991";
+		this.email = "email";
+		this.password = "pass";
 	}
 
 	public String getName() {

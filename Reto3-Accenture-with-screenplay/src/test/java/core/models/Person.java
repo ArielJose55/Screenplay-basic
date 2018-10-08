@@ -1,4 +1,4 @@
-package com.accenture.Reto3.models;
+package core.models;
 
 public class Person {
 	

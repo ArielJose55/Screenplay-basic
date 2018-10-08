@@ -1,4 +1,4 @@
-package com.accenture.Reto3.ui;
+package core.ui;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;

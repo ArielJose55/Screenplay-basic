@@ -1,10 +1,10 @@
-package com.accenture.Reto3.tasks;
-
-import com.accenture.Reto3.ui.WriteEmailPage;
+package core.tasks;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
+
+import core.ui.WriteEmailPage;
 import net.serenitybdd.screenplay.actions.Click;
 import net.thucydides.core.annotations.Step;
 

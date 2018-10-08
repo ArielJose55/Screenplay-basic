@@ -1,4 +1,4 @@
-package com.accenture.Reto3.ui;
+package core.ui;
 
 import org.openqa.selenium.By;
 
